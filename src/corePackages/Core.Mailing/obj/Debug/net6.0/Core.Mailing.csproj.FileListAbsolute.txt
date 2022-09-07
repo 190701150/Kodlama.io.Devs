@@ -1,0 +1,14 @@
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/corePackages/Core.Mailing/bin/Debug/net6.0/Core.Mailing.deps.json
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/corePackages/Core.Mailing/bin/Debug/net6.0/Core.Mailing.runtimeconfig.json
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/corePackages/Core.Mailing/bin/Debug/net6.0/Core.Mailing.dll
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/corePackages/Core.Mailing/bin/Debug/net6.0/Core.Mailing.pdb
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/corePackages/Core.Mailing/obj/Debug/net6.0/Core.Mailing.csproj.AssemblyReference.cache
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/corePackages/Core.Mailing/obj/Debug/net6.0/Core.Mailing.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/corePackages/Core.Mailing/obj/Debug/net6.0/Core.Mailing.AssemblyInfoInputs.cache
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/corePackages/Core.Mailing/obj/Debug/net6.0/Core.Mailing.AssemblyInfo.cs
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/corePackages/Core.Mailing/obj/Debug/net6.0/Core.Mailing.csproj.CoreCompileInputs.cache
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/corePackages/Core.Mailing/obj/Debug/net6.0/Core.Mailing.dll
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/corePackages/Core.Mailing/obj/Debug/net6.0/refint/Core.Mailing.dll
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/corePackages/Core.Mailing/obj/Debug/net6.0/Core.Mailing.pdb
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/corePackages/Core.Mailing/obj/Debug/net6.0/Core.Mailing.genruntimeconfig.cache
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/corePackages/Core.Mailing/obj/Debug/net6.0/ref/Core.Mailing.dll

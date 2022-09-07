@@ -1,0 +1,49 @@
+/Users/ahmethamzaustun/Downloads/nArchitecture-master-2/src/corePackages/Core.Security/bin/Debug/net6.0/Core.Security.deps.json
+/Users/ahmethamzaustun/Downloads/nArchitecture-master-2/src/corePackages/Core.Security/bin/Debug/net6.0/Core.Security.dll
+/Users/ahmethamzaustun/Downloads/nArchitecture-master-2/src/corePackages/Core.Security/bin/Debug/net6.0/Core.Security.pdb
+/Users/ahmethamzaustun/Downloads/nArchitecture-master-2/src/corePackages/Core.Security/bin/Debug/net6.0/Core.Persistence.dll
+/Users/ahmethamzaustun/Downloads/nArchitecture-master-2/src/corePackages/Core.Security/bin/Debug/net6.0/Core.Persistence.pdb
+/Users/ahmethamzaustun/Downloads/nArchitecture-master-2/src/corePackages/Core.Security/obj/Debug/net6.0/Core.Security.csproj.AssemblyReference.cache
+/Users/ahmethamzaustun/Downloads/nArchitecture-master-2/src/corePackages/Core.Security/obj/Debug/net6.0/Core.Security.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ahmethamzaustun/Downloads/nArchitecture-master-2/src/corePackages/Core.Security/obj/Debug/net6.0/Core.Security.AssemblyInfoInputs.cache
+/Users/ahmethamzaustun/Downloads/nArchitecture-master-2/src/corePackages/Core.Security/obj/Debug/net6.0/Core.Security.AssemblyInfo.cs
+/Users/ahmethamzaustun/Downloads/nArchitecture-master-2/src/corePackages/Core.Security/obj/Debug/net6.0/Core.Security.csproj.CoreCompileInputs.cache
+/Users/ahmethamzaustun/Downloads/nArchitecture-master-2/src/corePackages/Core.Security/obj/Debug/net6.0/Core.Security.csproj.CopyComplete
+/Users/ahmethamzaustun/Downloads/nArchitecture-master-2/src/corePackages/Core.Security/obj/Debug/net6.0/Core.Security.dll
+/Users/ahmethamzaustun/Downloads/nArchitecture-master-2/src/corePackages/Core.Security/obj/Debug/net6.0/refint/Core.Security.dll
+/Users/ahmethamzaustun/Downloads/nArchitecture-master-2/src/corePackages/Core.Security/obj/Debug/net6.0/Core.Security.pdb
+/Users/ahmethamzaustun/Downloads/nArchitecture-master-2/src/corePackages/Core.Security/obj/Debug/net6.0/ref/Core.Security.dll
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/nArchitecture-master-2/src/corePackages/Core.Security/bin/Debug/net6.0/Core.Security.deps.json
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/nArchitecture-master-2/src/corePackages/Core.Security/bin/Debug/net6.0/Core.Security.dll
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/nArchitecture-master-2/src/corePackages/Core.Security/bin/Debug/net6.0/Core.Security.pdb
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/nArchitecture-master-2/src/corePackages/Core.Security/bin/Debug/net6.0/Core.Persistence.dll
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/nArchitecture-master-2/src/corePackages/Core.Security/bin/Debug/net6.0/Core.Persistence.pdb
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/nArchitecture-master-2/src/corePackages/Core.Security/obj/Debug/net6.0/Core.Security.csproj.AssemblyReference.cache
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/nArchitecture-master-2/src/corePackages/Core.Security/obj/Debug/net6.0/Core.Security.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/nArchitecture-master-2/src/corePackages/Core.Security/obj/Debug/net6.0/Core.Security.AssemblyInfoInputs.cache
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/nArchitecture-master-2/src/corePackages/Core.Security/obj/Debug/net6.0/Core.Security.AssemblyInfo.cs
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/nArchitecture-master-2/src/corePackages/Core.Security/obj/Debug/net6.0/Core.Security.csproj.CoreCompileInputs.cache
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/nArchitecture-master-2/src/corePackages/Core.Security/obj/Debug/net6.0/Core.Security.csproj.CopyComplete
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/nArchitecture-master-2/src/corePackages/Core.Security/obj/Debug/net6.0/Core.Security.dll
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/nArchitecture-master-2/src/corePackages/Core.Security/obj/Debug/net6.0/refint/Core.Security.dll
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/nArchitecture-master-2/src/corePackages/Core.Security/obj/Debug/net6.0/Core.Security.pdb
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/nArchitecture-master-2/src/corePackages/Core.Security/obj/Debug/net6.0/ref/Core.Security.dll
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/nArchitecture-master-2/src/corePackages/Core.Security/bin/Debug/net6.0/Core.Security.runtimeconfig.json
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/nArchitecture-master-2/src/corePackages/Core.Security/obj/Debug/net6.0/Core.Security.genruntimeconfig.cache
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/corePackages/Core.Security/bin/Debug/net6.0/Core.Security.deps.json
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/corePackages/Core.Security/bin/Debug/net6.0/Core.Security.runtimeconfig.json
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/corePackages/Core.Security/bin/Debug/net6.0/Core.Security.dll
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/corePackages/Core.Security/bin/Debug/net6.0/Core.Security.pdb
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/corePackages/Core.Security/bin/Debug/net6.0/Core.Persistence.dll
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/corePackages/Core.Security/bin/Debug/net6.0/Core.Persistence.pdb
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/corePackages/Core.Security/obj/Debug/net6.0/Core.Security.csproj.AssemblyReference.cache
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/corePackages/Core.Security/obj/Debug/net6.0/Core.Security.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/corePackages/Core.Security/obj/Debug/net6.0/Core.Security.AssemblyInfoInputs.cache
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/corePackages/Core.Security/obj/Debug/net6.0/Core.Security.AssemblyInfo.cs
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/corePackages/Core.Security/obj/Debug/net6.0/Core.Security.csproj.CoreCompileInputs.cache
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/corePackages/Core.Security/obj/Debug/net6.0/Core.Security.csproj.CopyComplete
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/corePackages/Core.Security/obj/Debug/net6.0/Core.Security.dll
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/corePackages/Core.Security/obj/Debug/net6.0/refint/Core.Security.dll
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/corePackages/Core.Security/obj/Debug/net6.0/Core.Security.pdb
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/corePackages/Core.Security/obj/Debug/net6.0/Core.Security.genruntimeconfig.cache
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/corePackages/Core.Security/obj/Debug/net6.0/ref/Core.Security.dll

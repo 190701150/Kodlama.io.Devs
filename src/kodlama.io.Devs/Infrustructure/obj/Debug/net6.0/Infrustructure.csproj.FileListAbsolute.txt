@@ -1,0 +1,12 @@
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/kodlama.io.Devs/Infrustructure/bin/Debug/net6.0/Infrustructure.deps.json
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/kodlama.io.Devs/Infrustructure/bin/Debug/net6.0/Infrustructure.dll
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/kodlama.io.Devs/Infrustructure/bin/Debug/net6.0/Infrustructure.pdb
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/kodlama.io.Devs/Infrustructure/obj/Debug/net6.0/Infrustructure.csproj.AssemblyReference.cache
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/kodlama.io.Devs/Infrustructure/obj/Debug/net6.0/Infrustructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/kodlama.io.Devs/Infrustructure/obj/Debug/net6.0/Infrustructure.AssemblyInfoInputs.cache
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/kodlama.io.Devs/Infrustructure/obj/Debug/net6.0/Infrustructure.AssemblyInfo.cs
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/kodlama.io.Devs/Infrustructure/obj/Debug/net6.0/Infrustructure.csproj.CoreCompileInputs.cache
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/kodlama.io.Devs/Infrustructure/obj/Debug/net6.0/Infrustructure.dll
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/kodlama.io.Devs/Infrustructure/obj/Debug/net6.0/refint/Infrustructure.dll
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/kodlama.io.Devs/Infrustructure/obj/Debug/net6.0/Infrustructure.pdb
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/kodlama.io.Devs/Infrustructure/obj/Debug/net6.0/ref/Infrustructure.dll

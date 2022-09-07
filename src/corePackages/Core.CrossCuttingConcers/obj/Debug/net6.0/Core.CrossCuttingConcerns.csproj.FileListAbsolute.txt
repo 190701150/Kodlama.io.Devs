@@ -1,0 +1,40 @@
+/Users/ahmethamzaustun/Downloads/nArchitecture-master-2/src/corePackages/Core.CrossCuttingConcers/bin/Debug/net6.0/Core.CrossCuttingConcerns.deps.json
+/Users/ahmethamzaustun/Downloads/nArchitecture-master-2/src/corePackages/Core.CrossCuttingConcers/bin/Debug/net6.0/Core.CrossCuttingConcerns.dll
+/Users/ahmethamzaustun/Downloads/nArchitecture-master-2/src/corePackages/Core.CrossCuttingConcers/bin/Debug/net6.0/Core.CrossCuttingConcerns.pdb
+/Users/ahmethamzaustun/Downloads/nArchitecture-master-2/src/corePackages/Core.CrossCuttingConcers/obj/Debug/net6.0/Core.CrossCuttingConcerns.csproj.AssemblyReference.cache
+/Users/ahmethamzaustun/Downloads/nArchitecture-master-2/src/corePackages/Core.CrossCuttingConcers/obj/Debug/net6.0/Core.CrossCuttingConcerns.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ahmethamzaustun/Downloads/nArchitecture-master-2/src/corePackages/Core.CrossCuttingConcers/obj/Debug/net6.0/Core.CrossCuttingConcerns.AssemblyInfoInputs.cache
+/Users/ahmethamzaustun/Downloads/nArchitecture-master-2/src/corePackages/Core.CrossCuttingConcers/obj/Debug/net6.0/Core.CrossCuttingConcerns.AssemblyInfo.cs
+/Users/ahmethamzaustun/Downloads/nArchitecture-master-2/src/corePackages/Core.CrossCuttingConcers/obj/Debug/net6.0/Core.CrossCuttingConcerns.csproj.CoreCompileInputs.cache
+/Users/ahmethamzaustun/Downloads/nArchitecture-master-2/src/corePackages/Core.CrossCuttingConcers/obj/Debug/net6.0/Core.CrossCuttingConcerns.dll
+/Users/ahmethamzaustun/Downloads/nArchitecture-master-2/src/corePackages/Core.CrossCuttingConcers/obj/Debug/net6.0/refint/Core.CrossCuttingConcerns.dll
+/Users/ahmethamzaustun/Downloads/nArchitecture-master-2/src/corePackages/Core.CrossCuttingConcers/obj/Debug/net6.0/Core.CrossCuttingConcerns.pdb
+/Users/ahmethamzaustun/Downloads/nArchitecture-master-2/src/corePackages/Core.CrossCuttingConcers/obj/Debug/net6.0/ref/Core.CrossCuttingConcerns.dll
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/nArchitecture-master-2/src/corePackages/Core.CrossCuttingConcers/bin/Debug/net6.0/Core.CrossCuttingConcerns.deps.json
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/nArchitecture-master-2/src/corePackages/Core.CrossCuttingConcers/bin/Debug/net6.0/Core.CrossCuttingConcerns.dll
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/nArchitecture-master-2/src/corePackages/Core.CrossCuttingConcers/bin/Debug/net6.0/Core.CrossCuttingConcerns.pdb
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/nArchitecture-master-2/src/corePackages/Core.CrossCuttingConcers/obj/Debug/net6.0/Core.CrossCuttingConcerns.csproj.AssemblyReference.cache
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/nArchitecture-master-2/src/corePackages/Core.CrossCuttingConcers/obj/Debug/net6.0/Core.CrossCuttingConcerns.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/nArchitecture-master-2/src/corePackages/Core.CrossCuttingConcers/obj/Debug/net6.0/Core.CrossCuttingConcerns.AssemblyInfoInputs.cache
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/nArchitecture-master-2/src/corePackages/Core.CrossCuttingConcers/obj/Debug/net6.0/Core.CrossCuttingConcerns.AssemblyInfo.cs
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/nArchitecture-master-2/src/corePackages/Core.CrossCuttingConcers/obj/Debug/net6.0/Core.CrossCuttingConcerns.csproj.CoreCompileInputs.cache
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/nArchitecture-master-2/src/corePackages/Core.CrossCuttingConcers/obj/Debug/net6.0/Core.CrossCuttingConcerns.dll
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/nArchitecture-master-2/src/corePackages/Core.CrossCuttingConcers/obj/Debug/net6.0/refint/Core.CrossCuttingConcerns.dll
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/nArchitecture-master-2/src/corePackages/Core.CrossCuttingConcers/obj/Debug/net6.0/Core.CrossCuttingConcerns.pdb
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/nArchitecture-master-2/src/corePackages/Core.CrossCuttingConcers/obj/Debug/net6.0/ref/Core.CrossCuttingConcerns.dll
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/nArchitecture-master-2/src/corePackages/Core.CrossCuttingConcers/bin/Debug/net6.0/Core.CrossCuttingConcerns.runtimeconfig.json
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/nArchitecture-master-2/src/corePackages/Core.CrossCuttingConcers/obj/Debug/net6.0/Core.CrossCuttingConcerns.genruntimeconfig.cache
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/corePackages/Core.CrossCuttingConcers/bin/Debug/net6.0/Core.CrossCuttingConcerns.deps.json
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/corePackages/Core.CrossCuttingConcers/bin/Debug/net6.0/Core.CrossCuttingConcerns.runtimeconfig.json
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/corePackages/Core.CrossCuttingConcers/bin/Debug/net6.0/Core.CrossCuttingConcerns.dll
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/corePackages/Core.CrossCuttingConcers/bin/Debug/net6.0/Core.CrossCuttingConcerns.pdb
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/corePackages/Core.CrossCuttingConcers/obj/Debug/net6.0/Core.CrossCuttingConcerns.csproj.AssemblyReference.cache
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/corePackages/Core.CrossCuttingConcers/obj/Debug/net6.0/Core.CrossCuttingConcerns.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/corePackages/Core.CrossCuttingConcers/obj/Debug/net6.0/Core.CrossCuttingConcerns.AssemblyInfoInputs.cache
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/corePackages/Core.CrossCuttingConcers/obj/Debug/net6.0/Core.CrossCuttingConcerns.AssemblyInfo.cs
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/corePackages/Core.CrossCuttingConcers/obj/Debug/net6.0/Core.CrossCuttingConcerns.csproj.CoreCompileInputs.cache
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/corePackages/Core.CrossCuttingConcers/obj/Debug/net6.0/Core.CrossCuttingConcerns.dll
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/corePackages/Core.CrossCuttingConcers/obj/Debug/net6.0/refint/Core.CrossCuttingConcerns.dll
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/corePackages/Core.CrossCuttingConcers/obj/Debug/net6.0/Core.CrossCuttingConcerns.pdb
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/corePackages/Core.CrossCuttingConcers/obj/Debug/net6.0/Core.CrossCuttingConcerns.genruntimeconfig.cache
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/corePackages/Core.CrossCuttingConcers/obj/Debug/net6.0/ref/Core.CrossCuttingConcerns.dll

@@ -1,0 +1,17 @@
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/kodlama.io.Devs/Domain/bin/Debug/net6.0/Domain.deps.json
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/kodlama.io.Devs/Domain/bin/Debug/net6.0/Domain.dll
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/kodlama.io.Devs/Domain/bin/Debug/net6.0/Domain.pdb
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/kodlama.io.Devs/Domain/bin/Debug/net6.0/Core.Persistence.dll
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/kodlama.io.Devs/Domain/bin/Debug/net6.0/Core.Persistence.pdb
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/kodlama.io.Devs/Domain/obj/Debug/net6.0/Domain.csproj.AssemblyReference.cache
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/kodlama.io.Devs/Domain/obj/Debug/net6.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/kodlama.io.Devs/Domain/obj/Debug/net6.0/Domain.AssemblyInfoInputs.cache
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/kodlama.io.Devs/Domain/obj/Debug/net6.0/Domain.AssemblyInfo.cs
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/kodlama.io.Devs/Domain/obj/Debug/net6.0/Domain.csproj.CoreCompileInputs.cache
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/kodlama.io.Devs/Domain/obj/Debug/net6.0/Domain.csproj.CopyComplete
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/kodlama.io.Devs/Domain/obj/Debug/net6.0/Domain.dll
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/kodlama.io.Devs/Domain/obj/Debug/net6.0/refint/Domain.dll
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/kodlama.io.Devs/Domain/obj/Debug/net6.0/Domain.pdb
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/kodlama.io.Devs/Domain/obj/Debug/net6.0/ref/Domain.dll
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/kodlama.io.Devs/Domain/bin/Debug/net6.0/Domain.runtimeconfig.json
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/kodlama.io.Devs/Domain/obj/Debug/net6.0/Domain.genruntimeconfig.cache
