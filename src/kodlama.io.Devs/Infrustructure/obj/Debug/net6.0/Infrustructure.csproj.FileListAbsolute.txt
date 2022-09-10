@@ -10,3 +10,5 @@
 /Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/kodlama.io.Devs/Infrustructure/obj/Debug/net6.0/refint/Infrustructure.dll
 /Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/kodlama.io.Devs/Infrustructure/obj/Debug/net6.0/Infrustructure.pdb
 /Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/kodlama.io.Devs/Infrustructure/obj/Debug/net6.0/ref/Infrustructure.dll
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/kodlama.io.Devs/Infrustructure/bin/Debug/net6.0/Infrustructure.runtimeconfig.json
+/Users/ahmethamzaustun/Desktop/udemy kurslar/senior_cqrs/Kodlama.io.Devs/src/kodlama.io.Devs/Infrustructure/obj/Debug/net6.0/Infrustructure.genruntimeconfig.cache
