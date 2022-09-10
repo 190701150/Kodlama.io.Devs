@@ -10,59 +10,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d48c04ab-7fa7-44d9-9941-92efb711e005" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/Features/Technologies/Dtos/TechnologyListDto.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/Features/Technologies/Models/TechnologyListModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/Features/Technologies/Profiles/MappingProfiles.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/Features/Technologies/Queries/GetListTechnology/GetListTechnologyQuery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/Services/Repositories/ITechnologyRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/Entities/Technology.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/Migrations/20220910083002_Technology.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/Migrations/20220910083002_Technology.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/Repositories/TechnologyRepository.cs" afterDir="false" />
+    <list default="true" id="d48c04ab-7fa7-44d9-9941-92efb711e005" name="Changes" comment="Add Technology Feature">
+      <change afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/Features/Technologies/Queries/GetListTechnologyByDynamic/GetListTechnologyByDynamicQuery.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/Controllers/TechnologiesController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Kodlama.io.Devs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Kodlama.io.Devs/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/Features/Technologies/Models/TechnologyListModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/Features/Technologies/Models/TechnologyListModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/bin/Debug/net6.0/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/bin/Debug/net6.0/Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/bin/Debug/net6.0/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/bin/Debug/net6.0/Application.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/bin/Debug/net6.0/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/bin/Debug/net6.0/Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/bin/Debug/net6.0/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/bin/Debug/net6.0/Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/obj/Debug/net6.0/Application.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/obj/Debug/net6.0/Application.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/obj/Debug/net6.0/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/obj/Debug/net6.0/Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/obj/Debug/net6.0/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/obj/Debug/net6.0/Application.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/Entities/ProgrammingLanguage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/Entities/ProgrammingLanguage.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/bin/Debug/net6.0/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/bin/Debug/net6.0/Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/bin/Debug/net6.0/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/bin/Debug/net6.0/Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/obj/Debug/net6.0/Domain.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/obj/Debug/net6.0/Domain.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/obj/Debug/net6.0/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/obj/Debug/net6.0/Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/obj/Debug/net6.0/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/obj/Debug/net6.0/Domain.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/obj/Debug/net6.0/ref/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/obj/Debug/net6.0/ref/Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/obj/Debug/net6.0/refint/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/obj/Debug/net6.0/refint/Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/Contexts/BaseDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/Contexts/BaseDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/Migrations/BaseDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/Migrations/BaseDbContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/PersistenceServiceRegistration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/PersistenceServiceRegistration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/obj/Debug/net6.0/ref/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/obj/Debug/net6.0/ref/Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/obj/Debug/net6.0/refint/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/obj/Debug/net6.0/refint/Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/bin/Debug/net6.0/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/bin/Debug/net6.0/Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/bin/Debug/net6.0/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/bin/Debug/net6.0/Application.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/bin/Debug/net6.0/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/bin/Debug/net6.0/Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/bin/Debug/net6.0/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/bin/Debug/net6.0/Domain.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/bin/Debug/net6.0/Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/bin/Debug/net6.0/Persistence.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/bin/Debug/net6.0/Persistence.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/bin/Debug/net6.0/Persistence.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/obj/Debug/net6.0/Persistence.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/obj/Debug/net6.0/Persistence.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/obj/Debug/net6.0/Persistence.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/obj/Debug/net6.0/Persistence.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/obj/Debug/net6.0/Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/obj/Debug/net6.0/Persistence.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/obj/Debug/net6.0/Persistence.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/obj/Debug/net6.0/Persistence.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/obj/Debug/net6.0/ref/Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/obj/Debug/net6.0/ref/Persistence.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/obj/Debug/net6.0/refint/Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/obj/Debug/net6.0/refint/Persistence.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/Application.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/Domain.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/Domain.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/Persistence.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/Persistence.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/Persistence.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/WebAPI.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/WebAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/WebAPI.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/obj/Debug/net6.0/WebAPI.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/obj/Debug/net6.0/WebAPI.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/obj/Debug/net6.0/WebAPI.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/obj/Debug/net6.0/WebAPI.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/obj/Debug/net6.0/WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/obj/Debug/net6.0/WebAPI.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/obj/Debug/net6.0/WebAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/obj/Debug/net6.0/WebAPI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/obj/Debug/net6.0/ref/WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/obj/Debug/net6.0/ref/WebAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/obj/Debug/net6.0/refint/WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/obj/Debug/net6.0/refint/WebAPI.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/obj/staticwebassets.pack.sentinel" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -163,8 +140,16 @@
       <workItem from="1662544993502" duration="15561000" />
       <workItem from="1662577701594" duration="2801000" />
       <workItem from="1662676910388" duration="5277000" />
-      <workItem from="1662841992754" duration="4237000" />
+      <workItem from="1662841992754" duration="7826000" />
     </task>
+    <task id="LOCAL-00001" summary="Add Technology Feature">
+      <created>1662847101435</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662847101435</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,5 +171,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Add Technology Feature" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Technology Feature" />
   </component>
 </project>
