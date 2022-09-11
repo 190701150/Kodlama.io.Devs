@@ -32,6 +32,12 @@
       <Folder Include="Features\Technologies\Commands" />
       <Folder Include="Features\Technologies\Constants" />
       <Folder Include="Features\Technologies\Rules" />
+      <Folder Include="Features\UserSocialMedias\Commands\DeleteUserSocialMedias" />
+      <Folder Include="Features\UserSocialMedias\Commands\UpdateUserSocialMedias" />
+      <Folder Include="Features\UserSocialMedias\Constants\Messages" />
+      <Folder Include="Features\UserSocialMedias\Profiles" />
+      <Folder Include="Features\UserSocialMedias\Queries" />
+      <Folder Include="Features\UserSocialMedias\Rules" />
     </ItemGroup>
 
     <ItemGroup>

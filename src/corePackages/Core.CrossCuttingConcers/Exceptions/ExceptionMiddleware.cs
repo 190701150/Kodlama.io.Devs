@@ -92,6 +92,6 @@ public class ExceptionMiddleware
             Title = "Internal exception",
             Detail = exception.Message,
             Instance = ""
-        }.ToString());
+        }.ToString()!);
     }
 }

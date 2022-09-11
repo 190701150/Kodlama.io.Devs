@@ -10,36 +10,168 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d48c04ab-7fa7-44d9-9941-92efb711e005" name="Changes" comment="Add Technology Feature">
-      <change afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/Features/Technologies/Queries/GetListTechnologyByDynamic/GetListTechnologyByDynamicQuery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/Controllers/TechnologiesController.cs" afterDir="false" />
+    <list default="true" id="d48c04ab-7fa7-44d9-9941-92efb711e005" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/Features/Auths/Command/Login/LoginUserCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/Features/Auths/Command/Login/LoginUserCommandValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/Features/Auths/Command/Register/RegisterUserCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/Features/Auths/Command/Register/RegisterUserCommandValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/Features/Auths/Constants/UserMessages.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/Features/Auths/Profiles/MappingProfiles.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/Features/Auths/Rules/UserBusinessRules.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/Features/UserSocialMedias/Commands/CreateUserSocialMedias/CreateUserSocialMediaCommand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/Features/UserSocialMedias/Commands/CreateUserSocialMedias/CreateUserSocialMediaCommandValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/Features/UserSocialMedias/Dtos/CreatedUserSocialMediaDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/Features/UserSocialMedias/Dtos/DeletedUserSocialMediaDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/Features/UserSocialMedias/Dtos/UpdatedUserSocialMediaDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/Features/UserSocialMedias/Dtos/UserSocialMediaListDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/Features/UserSocialMedias/Models/UserSocialMediaListModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/Services/Repositories/IUserOperationClaimRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/Services/Repositories/IUserRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/Entities/UserSocialMedia.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/bin/Debug/net6.0/Core.Security.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/bin/Debug/net6.0/Core.Security.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/Migrations/20220911230539_Initial.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/Migrations/20220911230539_Initial.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/Repositories/UserOperationClaimRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/Repositories/UserRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/Controllers/AuthsController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Kodlama.io.Devs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Kodlama.io.Devs/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/Features/Technologies/Models/TechnologyListModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/Features/Technologies/Models/TechnologyListModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corePackages/Core.Application/Pipelines/Authorization/AuthorizationBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/corePackages/Core.Application/Pipelines/Authorization/AuthorizationBehavior.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corePackages/Core.Application/bin/Debug/net6.0/Core.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/corePackages/Core.Application/bin/Debug/net6.0/Core.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corePackages/Core.Application/bin/Debug/net6.0/Core.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/corePackages/Core.Application/bin/Debug/net6.0/Core.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corePackages/Core.Application/bin/Debug/net6.0/Core.CrossCuttingConcerns.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/corePackages/Core.Application/bin/Debug/net6.0/Core.CrossCuttingConcerns.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corePackages/Core.Application/bin/Debug/net6.0/Core.CrossCuttingConcerns.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/corePackages/Core.Application/bin/Debug/net6.0/Core.CrossCuttingConcerns.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corePackages/Core.Application/obj/Core.Application.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/corePackages/Core.Application/obj/Core.Application.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corePackages/Core.Application/obj/Debug/net6.0/Core.Application.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/corePackages/Core.Application/obj/Debug/net6.0/Core.Application.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corePackages/Core.Application/obj/Debug/net6.0/Core.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/corePackages/Core.Application/obj/Debug/net6.0/Core.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corePackages/Core.Application/obj/Debug/net6.0/Core.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/corePackages/Core.Application/obj/Debug/net6.0/Core.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corePackages/Core.Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/corePackages/Core.Application/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corePackages/Core.CrossCuttingConcers/Exceptions/ExceptionMiddleware.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/corePackages/Core.CrossCuttingConcers/Exceptions/ExceptionMiddleware.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corePackages/Core.CrossCuttingConcers/bin/Debug/net6.0/Core.CrossCuttingConcerns.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/corePackages/Core.CrossCuttingConcers/bin/Debug/net6.0/Core.CrossCuttingConcerns.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corePackages/Core.CrossCuttingConcers/bin/Debug/net6.0/Core.CrossCuttingConcerns.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/corePackages/Core.CrossCuttingConcers/bin/Debug/net6.0/Core.CrossCuttingConcerns.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corePackages/Core.CrossCuttingConcers/obj/Core.CrossCuttingConcerns.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/corePackages/Core.CrossCuttingConcers/obj/Core.CrossCuttingConcerns.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corePackages/Core.CrossCuttingConcers/obj/Debug/net6.0/Core.CrossCuttingConcerns.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/corePackages/Core.CrossCuttingConcers/obj/Debug/net6.0/Core.CrossCuttingConcerns.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corePackages/Core.CrossCuttingConcers/obj/Debug/net6.0/Core.CrossCuttingConcerns.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/corePackages/Core.CrossCuttingConcers/obj/Debug/net6.0/Core.CrossCuttingConcerns.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corePackages/Core.CrossCuttingConcers/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/corePackages/Core.CrossCuttingConcers/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corePackages/Core.ElasticSearch/obj/Core.ElasticSearch.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/corePackages/Core.ElasticSearch/obj/Core.ElasticSearch.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corePackages/Core.ElasticSearch/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/corePackages/Core.ElasticSearch/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corePackages/Core.Mailing/obj/Core.Mailing.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/corePackages/Core.Mailing/obj/Core.Mailing.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corePackages/Core.Mailing/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/corePackages/Core.Mailing/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corePackages/Core.Persistence/obj/Core.Persistence.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/corePackages/Core.Persistence/obj/Core.Persistence.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corePackages/Core.Persistence/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/corePackages/Core.Persistence/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corePackages/Core.Security/obj/Core.Security.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/corePackages/Core.Security/obj/Core.Security.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corePackages/Core.Security/obj/Debug/net6.0/Core.Security.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/corePackages/Core.Security/obj/Debug/net6.0/Core.Security.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/corePackages/Core.Security/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/corePackages/Core.Security/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/ApplicationServiceRegistration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/ApplicationServiceRegistration.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/bin/Debug/net6.0/Application.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/bin/Debug/net6.0/Application.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/bin/Debug/net6.0/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/bin/Debug/net6.0/Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/bin/Debug/net6.0/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/bin/Debug/net6.0/Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/bin/Debug/net6.0/Core.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/bin/Debug/net6.0/Core.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/bin/Debug/net6.0/Core.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/bin/Debug/net6.0/Core.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/bin/Debug/net6.0/Core.CrossCuttingConcerns.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/bin/Debug/net6.0/Core.CrossCuttingConcerns.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/bin/Debug/net6.0/Core.CrossCuttingConcerns.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/bin/Debug/net6.0/Core.CrossCuttingConcerns.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/bin/Debug/net6.0/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/bin/Debug/net6.0/Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/bin/Debug/net6.0/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/bin/Debug/net6.0/Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/obj/Application.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/obj/Application.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/obj/Application.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/obj/Application.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/obj/Debug/net6.0/Application.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/obj/Debug/net6.0/Application.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/obj/Debug/net6.0/Application.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/obj/Debug/net6.0/Application.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/obj/Debug/net6.0/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/obj/Debug/net6.0/Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/obj/Debug/net6.0/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/obj/Debug/net6.0/Application.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/obj/Debug/net6.0/ref/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/obj/Debug/net6.0/ref/Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/obj/Debug/net6.0/refint/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/obj/Debug/net6.0/refint/Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Application/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/Domain.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/bin/Debug/net6.0/Domain.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/bin/Debug/net6.0/Domain.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/bin/Debug/net6.0/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/bin/Debug/net6.0/Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/bin/Debug/net6.0/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/bin/Debug/net6.0/Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/obj/Debug/net6.0/Domain.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/obj/Debug/net6.0/Domain.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/obj/Debug/net6.0/Domain.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/obj/Debug/net6.0/Domain.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/obj/Debug/net6.0/Domain.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/obj/Debug/net6.0/Domain.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/obj/Debug/net6.0/Domain.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/obj/Debug/net6.0/Domain.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/obj/Debug/net6.0/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/obj/Debug/net6.0/Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/obj/Debug/net6.0/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/obj/Debug/net6.0/Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/obj/Debug/net6.0/ref/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/obj/Debug/net6.0/ref/Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/obj/Debug/net6.0/refint/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/obj/Debug/net6.0/refint/Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/obj/Domain.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/obj/Domain.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/obj/Domain.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/obj/Domain.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Domain/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Infrustructure/obj/Infrustructure.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Infrustructure/obj/Infrustructure.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Infrustructure/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Infrustructure/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/Contexts/BaseDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/Contexts/BaseDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/Migrations/20220907104750_Initial.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/Migrations/20220907104750_Initial.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/Migrations/20220910083002_Technology.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/Migrations/20220910083002_Technology.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/Migrations/BaseDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/Migrations/BaseDbContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/PersistenceServiceRegistration.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/PersistenceServiceRegistration.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/bin/Debug/net6.0/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/bin/Debug/net6.0/Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/bin/Debug/net6.0/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/bin/Debug/net6.0/Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/bin/Debug/net6.0/Core.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/bin/Debug/net6.0/Core.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/bin/Debug/net6.0/Core.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/bin/Debug/net6.0/Core.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/bin/Debug/net6.0/Core.CrossCuttingConcerns.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/bin/Debug/net6.0/Core.CrossCuttingConcerns.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/bin/Debug/net6.0/Core.CrossCuttingConcerns.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/bin/Debug/net6.0/Core.CrossCuttingConcerns.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/bin/Debug/net6.0/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/bin/Debug/net6.0/Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/bin/Debug/net6.0/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/bin/Debug/net6.0/Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/bin/Debug/net6.0/Persistence.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/bin/Debug/net6.0/Persistence.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/bin/Debug/net6.0/Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/bin/Debug/net6.0/Persistence.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/bin/Debug/net6.0/Persistence.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/bin/Debug/net6.0/Persistence.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/obj/Debug/net6.0/Persistence.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/obj/Debug/net6.0/Persistence.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/obj/Debug/net6.0/Persistence.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/obj/Debug/net6.0/Persistence.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/obj/Debug/net6.0/Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/obj/Debug/net6.0/Persistence.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/obj/Debug/net6.0/Persistence.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/obj/Debug/net6.0/Persistence.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/obj/Debug/net6.0/ref/Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/obj/Debug/net6.0/ref/Persistence.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/obj/Debug/net6.0/refint/Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/obj/Debug/net6.0/refint/Persistence.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/obj/Persistence.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/obj/Persistence.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/obj/Persistence.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/obj/Persistence.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/Persistence/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/WebAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/WebAPI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/Application.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/Core.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/Core.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/Core.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/Core.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/Core.CrossCuttingConcerns.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/Core.CrossCuttingConcerns.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/Core.CrossCuttingConcerns.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/Core.CrossCuttingConcerns.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/Microsoft.IdentityModel.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/Microsoft.IdentityModel.Abstractions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/Persistence.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/Persistence.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/Persistence.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/Persistence.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/WebAPI.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/WebAPI.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/WebAPI.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/WebAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/WebAPI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/bin/Debug/net6.0/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/obj/Debug/net6.0/WebAPI.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/obj/Debug/net6.0/WebAPI.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/obj/Debug/net6.0/WebAPI.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/obj/Debug/net6.0/WebAPI.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/obj/Debug/net6.0/WebAPI.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/obj/Debug/net6.0/WebAPI.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/obj/Debug/net6.0/WebAPI.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/obj/Debug/net6.0/WebAPI.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/obj/Debug/net6.0/WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/obj/Debug/net6.0/WebAPI.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/obj/Debug/net6.0/WebAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/obj/Debug/net6.0/WebAPI.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/obj/Debug/net6.0/ref/WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/obj/Debug/net6.0/ref/WebAPI.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/obj/Debug/net6.0/refint/WebAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/obj/Debug/net6.0/refint/WebAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/obj/WebAPI.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/obj/WebAPI.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/obj/WebAPI.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/obj/WebAPI.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/src/kodlama.io.Devs/WebAPI/obj/staticwebassets.pack.sentinel" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,8 +189,16 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/corePackages/Core.Application/Pipelines/Authorization/AuthorizationBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/corePackages/Core.Persistence/Repositories/Entity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/kodlama.io.Devs/Application/Features/Auths/Command/Login/LoginUserCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/kodlama.io.Devs/Application/Features/Auths/Command/Login/LoginUserCommandValidator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/kodlama.io.Devs/Application/Features/ProgrammingLanguages/Commands/CreateProgrammingLanguages/CreateProgrammingLanguageCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/kodlama.io.Devs/Application/Features/Technologies/Models/TechnologyListModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/Kodlama.io.Devs-main/src/Kodlama.io.Devs/WebAPI/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/19e0b867217f44d78643433f14b7e222b55600/_b3ead/IList.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/358e3255e46dc9ec606b5f38d8487fa607be110b555a2542a508dd7d4192e66/IHttpContextAccessor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3839fc8fee5ae62538a4469ed86bbba1ccd15d4e0da63bba779abe1719da3/IConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d4f98ebdd878db4fbd98872756eb7be6ad9e468fe5cd6b16385d8c4993109a/List.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d8a081278aeefba3e76b6b47941a10fe76d9c11379c88f76b1938b33d8666/Exception.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -140,7 +280,9 @@
       <workItem from="1662544993502" duration="15561000" />
       <workItem from="1662577701594" duration="2801000" />
       <workItem from="1662676910388" duration="5277000" />
-      <workItem from="1662841992754" duration="7826000" />
+      <workItem from="1662841992754" duration="8178000" />
+      <workItem from="1662899118930" duration="19647000" />
+      <workItem from="1662939204283" duration="1102000" />
     </task>
     <task id="LOCAL-00001" summary="Add Technology Feature">
       <created>1662847101435</created>
@@ -149,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662847101435</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ByDynamicQuery">
+      <created>1662850772855</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662850772855</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +321,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Add Technology Feature" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Technology Feature" />
+    <MESSAGE value="ByDynamicQuery" />
+    <option name="LAST_COMMIT_MESSAGE" value="ByDynamicQuery" />
   </component>
 </project>
